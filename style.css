@@ -11,4 +11,7 @@
 }
 html {
     background-image: url(index_background.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
