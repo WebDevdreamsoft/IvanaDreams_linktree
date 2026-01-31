@@ -8,10 +8,28 @@
     left: 0px;
     width: 100%;
     font-size: 1.2em;
+    color:#d0637c;
 }
 html {
-    background-image: url(index_background.jpg);
+    background-image: url(index_backg_portrait.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  html {
+        background-image: url(index_backg_portrait.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+@media screen and (min-width: 1025px) {
+  html {
+        background-image: url(index_background.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
