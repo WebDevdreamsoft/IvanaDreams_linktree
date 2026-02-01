@@ -3,40 +3,86 @@
         <title>Ivana Dreams 💐</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="logo.png" type="image/png">
+        <!-- Añadir Font Awesome para iconos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     <body>
-        <header id="header">
-            <h1>Ivana's Link Tree</h1>
-        </header>
+        <div class="page-container">
+            <header id="header">
+                <h1>Ivana's Link Tree</h1>
+            </header>
 
-        <table>
-            <thead>
-                <tr>
-                    <th colspam="3" id="table_header">
-                    <h2>My oficial links :)</h2>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="4" class="portrait-column left-portrait"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Fotos mias"></td>
-                    <td class="link-cell"><a href="https://www.instagram.com/ivanadreams_" target="blank">Instagram</a></td>
-                    <td rowspan="4" class="portrait-column right-portrait"><img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Fotos mias"></td>
-                </tr>
-                <tr>
-                    <td class="link-cell"><a href="https://onlyfans.com/ivana_dreams_0909" target="blank">Onlyfans</a></td>
-                </tr>
-                <tr>
-                    <td class="link-cell"><a href="https://throne.com" target="blank">My Throne :)</a></td>
-                <tr>
-                    <td class="link-cell"><a href="https://www.amazon.com.mx" target="blank">Amazon Wishlist</a></td>
-                </tr>
-            </tbody>
-
-        </table>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" id="table_header">
+                                <h2>My oficial links :)</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- Columna izquierda: Imagen portrait -->
+                            <td rowspan="4" class="portrait-column left-portrait">
+                                <div class="portrait-frame">
+                                    <img src="portrait left.png" alt="Fotos mias">
+                                </div>
+                            </td>
+                            
+                            <!-- Columna central: Enlaces -->
+                            <td class="link-cell">
+                                <a href="https://www.instagram.com/ivanadreams_" target="blank">
+                                    <i class="fab fa-instagram"></i> Instagram
+                                </a>
+                            </td>
+                            
+                            <!-- Columna derecha: Imagen portrait -->
+                            <td rowspan="4" class="portrait-column right-portrait">
+                                <div class="portrait-frame">
+                                    <img src="portrait right.png" alt="Fotos mias">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="link-cell">
+                                <a href="https://onlyfans.com/ivana_dreams_0909" target="blank">
+                                    <i class="fas fa-heart"></i> Onlyfans
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="link-cell">
+                                <a href="https://throne.com" target="blank">
+                                    <i class="fas fa-crown"></i> My Throne :)
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="link-cell">
+                                <a href="https://www.amazon.com.mx" target="blank">
+                                    <i class="fab fa-amazon"></i> Amazon Wishlist
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <!-- Fila adicional para imagen en modo móvil/tablet -->
+                        <tr class="mobile-portrait-row">
+                            <td colspan="3" class="mobile-portrait-container">
+                                <div class="mobile-portrait">
+                                    <img src="portrait left.png" alt="Ivana Dreams" class="mobile-img">
+                                    <p class="mobile-caption">👗👡💅🏼</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <footer id="footer">
+                <p>I love fashion :)</p>
+                <p>©IvanaDreams 2026 | All rights reserved</p>
+            </footer>
+        </div>
     </body>
-    <footer id="footer">
-        <p>I love fashion :)</p>
-        <p>©IvanaDreams 2026 | All rights reserve</p>
-    </footer>
 </html>
