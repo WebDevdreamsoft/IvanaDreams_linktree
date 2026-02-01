@@ -14,7 +14,7 @@ table {
     background-color: white;
     opacity: 90%;
     text-align: center;
-
+    margin-left: none;
     left: 0px;
     width: 80%;
     font-size: 1.2em;
@@ -48,6 +48,7 @@ html {
 @media screen and (min-width: 768px) {
     table{
         margin-top: 100px;
+        margin-left: 12%;
     }
   html {
         background-image: url(index_backg_portrait.jpg);
@@ -60,6 +61,7 @@ html {
 @media screen and (min-width: 1025px) {
     table{
         margin-top: 120px;
+        margin-left: 12%;
     }
   html {
         background-image: url(index_background.jpg);
