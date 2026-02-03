@@ -271,10 +271,12 @@ a i {
         font-size: 2.6rem; /* Tamaño óptimo para móvil */
         line-height: 5em;
         text-align: center;
+
     }
     .table-container {
-        margin-top: 125px;
-        margin-bottom: 90px;
+        margin-top: 80px;
+        margin-bottom: 15px;
+        min-height: calc(100vh - 180px); /* Asegura espacio para scroll */
         padding: 10px;
         height: 100%;
         width: 100%;
@@ -287,7 +289,7 @@ a i {
         width: 100% !important;
         max-width: 100%;
         border-radius: 15px;
-        margin: 5% auto;
+        margin: 0 auto;
     }
     
     #table_header h2 {
@@ -295,20 +297,35 @@ a i {
     }
     
     .link-cell {
-        padding: 20px 10px;
+        padding: 25px 15px !important;
     }
     
     a {
-        padding: 12px 15px;
-        font-size: 1em;
-        width: 95%;
+        padding: 18px 20px !important; /* Más grande */
+        font-size: 1.2rem !important; /* Texto más grande */
+        font-weight: 700; /* Más negrita */
+        width: 100% !important;
+    }
+    a i {
+        font-size: 1.4rem !important; /* Iconos más grandes */
+        margin-right: 12px;
     }
     
+    .mobile-caption {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
     .mobile-img {
-        max-width: 300px;
-        height: 300px;
+        max-width: 320px !important;
+        height: 320px !important;
+        margin: 0 auto 20px;
+        display: block;
+        border-width: 6px;
     }
-    
+    .mobile-portrait {
+        padding: 20px 15px 30px;
+    }
     #header h1 {
         font-size: 2.4em;
     }
