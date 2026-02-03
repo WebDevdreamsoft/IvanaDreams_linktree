@@ -257,65 +257,25 @@ a i {
     }
 }
 
-/* Móvil */
-@media screen and (max-width: 768px) {
-    body {
-        background-image: url(index_backg_portrait.jpg);
-    }
-    #header {
-        height: 10%;
-        padding: 8px 10px;
-    }
-    
+/* Móviles muy pequeños (opcional) */
+@media screen and (max-width: 480px) {
     #header h1 {
-        font-size: 2.6rem; /* Tamaño óptimo para móvil */
-        line-height: 5em;
-        text-align: center;
-    }
-    .table-container {
-        margin-top: 125px;
-        margin-bottom: 90px;
-        padding: 10px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    
-    table {
-        width: 100% !important;
-        max-width: 100%;
-        border-radius: 15px;
-        margin: 5% auto;
+        font-size: 1.6rem;
     }
     
     #table_header h2 {
-        font-size: 1.8rem;
-    }
-    
-    .link-cell {
-        padding: 20px 10px;
+        font-size: 1.4rem;
+        padding: 12px 8px;
     }
     
     a {
-        padding: 12px 15px;
-        font-size: 1em;
-        width: 95%;
+        padding: 16px 15px !important;
+        font-size: 1.1rem !important;
     }
     
     .mobile-img {
-        max-width: 250px;
-        height: 250px;
-    }
-    
-    #header h1 {
-        font-size: 1.5em;
-    }
-    
-    #footer p {
-        margin: 5px 0;
-        font-size: 0.9em;
+        max-width: 280px !important;
+        height: 280px !important;
     }
 }
 
