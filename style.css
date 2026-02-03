@@ -326,13 +326,19 @@ a i {
     .mobile-portrait {
         padding: 20px 15px 30px;
     }
-    #header h1 {
+    header {
+        height:15%;
+    }
+    h1 {
         font-size: 2.4em;
     }
     
     #footer p {
-        margin: 5px 0;
-        font-size: 0.9em;
+        margin: 20px 0;
+        font-size: 1.2em;
+    }
+    footer{
+        height:15%;
     }
 }
 
